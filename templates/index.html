@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ecommerse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg bg-secondary">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light" href="#" style="font-size: 30px;">Ecommerse</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 me-5">
+
+        <li class="nav-item">
+          <a class="nav-link active text-light fs-5" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light fs-5" href="#Fashion">Fashion</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link text-light fs-5" href="#Electronic">Electronics</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="/cart" class="nav-link text-light fs-5">cart</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+
+
+<img src="/static/ecommerse.jpg" alt="" height="100%" width="100%">
+
+
+<a href="#Fashion"><button class="btn text-dark fw-bold" style="position: absolute;left: 45%;top: 50%;background-color: rgb(201, 194, 81);"> start shopping </button></a>
+
+
+
+<section class="mt-5 mb-5" id="Fashion">
+    <div class="container">
+
+    <h1 class="text-bold text-center mb-5">Fashion</h1>
+
+    <div class="row">
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <!-- <img class="card-img-top" src="images/tshirt-img.png" alt="Card image cap"> -->
+            <img src="{{url_for('static', filename='tshirt-img.png')}}"/ height="300px">
+            <div class="card-body">
+                <p class="card-text fw-bold text-center"> 499 ₹</p>
+              <h5 class="card-title">men tshirt</h5>
+              <p class="card-text">fully comfortable tshirt with XL size</p>
+              <form action="/t-shirt" method="post">
+                <input type="submit" class="btn btn-danger" name="t-shirt" value="add to cart"></input>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+
+
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <!-- <img class="card-img-top" src="images/dress-shirt-img.png" alt="Card image cap"> -->
+                <img src="{{url_for('static', filename='dress-shirt-img.png')}}" height="300px"/>
+                <div class="card-body">
+                    <p class="card-text fw-bold text-center"> 499 ₹</p>
+                  <h5 class="card-title">shirt</h5>
+                  <p class="card-text"> shirt with XL size</p>
+                  <form action="/shirt" method="post">
+                    <input type="submit" class="btn btn-danger" name="t-shirt" value="add to cart"></input>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <!-- <img class="card-img-top" src="images/women-clothes-img.png" alt="Card image cap" height="380px"> -->
+                    <img src="{{url_for('static', filename='women-clothes-img.png')}}" height="300px"/>
+
+                    <div class="card-body">
+                        <p class="card-text fw-bold text-center"> 4,999 ₹</p>
+                      <h5 class="card-title">women dress</h5>
+                      <p class="card-text"> women-clothes</p>
+                      <form action="/women-dress" method="post">
+                        <input type="submit" class="btn btn-danger" name="t-shirt" value="add to cart"></input>
+                      </form>             
+                     </div>
+                  </div>
+                </div>
+
+       
+
+        
+    </div>
+</section>
+
+
+<section class="mt-5 mb-5" id="Electronic">
+    <div class="container">
+
+    <h1 class="text-bold text-center mb-5">Electronics</h1>
+
+    <div class="row">
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <!-- <img class="card-img-top" src="images/laptop-img.png" alt="Card image cap" height="205px"> -->
+            
+            <img src="{{url_for('static', filename='laptop-img.png')}}" height="205px"/>
+            <div class="card-body">
+                <p class="card-text fw-bold text-center"> 49,999 ₹</p>
+              <h5 class="card-title">ACER</h5>
+              <p class="card-text">laptop i5 with 8gb RAM and 1TB SSD</p>
+              <form action="/laptop" method="post">
+                <input type="submit" class="btn btn-danger" name="t-shirt" value="add to cart"></input>
+              </form>
+              </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <!-- <img class="card-img-top" src="images/mobile-img.png" alt="Card image cap"> -->
+                <img src="{{url_for('static', filename='mobile-img.png')}}"/>
+
+                <div class="card-body">
+                    <p class="card-text fw-bold text-center"> 49,999 ₹</p>
+                  <h5 class="card-title">stack of 5</h5>
+                  <p class="card-text">combination of 5 mobiles </p>
+                  <form action="/stack-of-5" method="post">
+                    <input type="submit" class="btn btn-danger" name="t-shirt" value="add to cart"></input>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <!-- <img class="card-img-top" src="images/computer-img.png" alt="Card image cap" height="230px"> -->
+                    <img src="{{url_for('static', filename='computer-img.png')}}" height="230px"/>
+
+                    <div class="card-body">
+                        <p class="card-text fw-bold text-center"> 49,999 ₹</p>
+                      <h5 class="card-title">ROG</h5>
+                      <p class="card-text">8gb RAM and 1TB SSD</p>
+                      <form action="/ROG" method="post">
+                        <input type="submit" class="btn btn-danger" name="t-shirt" value="add to cart"></input>
+                      </form>        
+                    </div>
+                  </div>
+                </div>
+
+       
+
+        
+    </div>
+
+
+
+</section>
+
+
+<footer class="bg-dark text-center text-lg-start ">
+    <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-light" href="#" style="text-decoration: none;">SAI</a>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
