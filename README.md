@@ -1,4 +1,4 @@
-# Developed an mini-ecommerse application by using FLask python framework
+# Developed an mini-ecommerce application by using FLask python framework
 
 
 eCommerce website developed using Flask is a robust and user-friendly online platform that allows customers to browse and purchase products with ease. The website is built using Flask, a Python web framework that provides flexibility, scalability, and security.
@@ -15,20 +15,21 @@ for my application i used mysql database for storing data.
 
 **SHOPPING CART** : Customers will be able to add products to their shopping cart.
 
-![Screenshot (81)](https://user-images.githubusercontent.com/110908237/228554523-0a12bb5c-a392-437b-a0ef-a9c69398b422.png)
 
-![Screenshot (79)](https://user-images.githubusercontent.com/110908237/228554591-567ff7c4-87ea-4486-89ba-415bd08f32a5.png)
+![Screenshot (98)](https://user-images.githubusercontent.com/110908237/228618361-9546f227-1842-4d64-968f-8998ce78c1a9.png)
 
-![Screenshot (80)](https://user-images.githubusercontent.com/110908237/228554621-324654d8-03bf-4eed-bdd3-96feb7a9a1c8.png)
+![Screenshot (99)](https://user-images.githubusercontent.com/110908237/228618391-238e49dc-1ba5-4097-9a9b-e599336c82be.png)
 
-![Screenshot (84)](https://user-images.githubusercontent.com/110908237/228554692-f50f6523-64cd-4e35-bef0-65bbb9a0c087.png)
+![Screenshot (100)](https://user-images.githubusercontent.com/110908237/228618419-e25e4444-2eef-4452-8023-d16b4850fe89.png)
 
-![Screenshot (83)](https://user-images.githubusercontent.com/110908237/228554720-bafbf9a6-060f-403f-a3d5-3ecd0d35e933.png)
+![Screenshot (101)](https://user-images.githubusercontent.com/110908237/228618457-d1d50dd6-c00d-4a4e-94b7-bac29b75de71.png)
 
-![Screenshot (89)](https://user-images.githubusercontent.com/110908237/228554767-6c8e1142-b996-489b-a1e0-518381c35334.png)
+![Screenshot (102)](https://user-images.githubusercontent.com/110908237/228618481-1ac1dbd6-e47a-4a05-8ca1-6401edc22e92.png)
 
-![Screenshot (95)](https://user-images.githubusercontent.com/110908237/228554807-6daf9fab-02cb-4958-b654-455e4f9088a0.png)
+![Screenshot (97)](https://user-images.githubusercontent.com/110908237/228618514-a9c24d2a-0f49-42f2-897a-8199e9fd7c0f.png)
 
-![Screenshot (96)](https://user-images.githubusercontent.com/110908237/228554844-201cbd4c-f480-42c6-b583-6926b733f3cd.png)
+![Screenshot (95)](https://user-images.githubusercontent.com/110908237/228618566-d6d89347-3256-4998-8f46-56f07b9fdfdb.png)
 
-![Screenshot (94)](https://user-images.githubusercontent.com/110908237/228554865-3575cb92-568c-4b5f-aa13-8bf2521dba9e.png)
+![Screenshot (96)](https://user-images.githubusercontent.com/110908237/228618613-8bf8dded-7ff2-455f-815a-165ab775a309.png)
+
+![Screenshot (104)](https://user-images.githubusercontent.com/110908237/228618649-a4f42ab0-23c2-4990-8fbb-55919b747a61.png)
