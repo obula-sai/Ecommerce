@@ -5,11 +5,14 @@ eCommerce website developed using Flask is a robust and user-friendly online pla
 The homepage of my eCommerce website is designed to showcase products , with clear navigation to different product categories.
 
 my application is not fully completed yet but till now features that i was added are ,
-DATABASE : The website will need a database to store product information, customer information, orders, and other relevant data.
+**DATABASE** : The website will need a database to store product information, customer information, orders, and other relevant data.
 for my application i used mysql database for storing data.
-USER AUTHENTICATION : In an e-commerce website, user authentication is an essential feature. Users will be able to create an account, log in, and manage their profiles.
-PRODUCT CATALOG : The website will need a product catalog that lists all the products available for sale. Each product have a title, description, price, and an image.
-SHOPPING CART : Customers will be able to add products to their shopping cart.
+
+**USER AUTHENTICATION** : In an e-commerce website, user authentication is an essential feature. Users will be able to create an account, log in, and manage their profiles.
+
+**PRODUCT CATALOG** : The website will need a product catalog that lists all the products available for sale. Each product have a title, description, price, and an image.
+
+**SHOPPING CART** : Customers will be able to add products to their shopping cart.
 
 ![Screenshot (81)](https://user-images.githubusercontent.com/110908237/228554523-0a12bb5c-a392-437b-a0ef-a9c69398b422.png)
 
