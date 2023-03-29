@@ -1,4 +1,4 @@
-# Developed an ecommerse application by using FLask python framework
+# Developed an mini-ecommerse application by using FLask python framework
 
 ![Screenshot (81)](https://user-images.githubusercontent.com/110908237/228554523-0a12bb5c-a392-437b-a0ef-a9c69398b422.png)
 
