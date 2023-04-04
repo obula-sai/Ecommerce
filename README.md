@@ -11,6 +11,8 @@ for my application i used mysql database for storing data.
 
 **USER AUTHENTICATION** : In an e-commerce website, user authentication is an essential feature. Users will be able to create an account, log in, and manage their profiles.
 
+**OTP VERIFICATION** : This system will generate a unique code and send it to the user's registered email address. The user will then enter the code into a form on the website to verify their identity. The smtplib library will be used to send the email containing the OTP to the user. The Flask framework will handle the routing of requests and the rendering of the web pages.
+
 **PRODUCT CATALOG** : The website will need a product catalog that lists all the products available for sale. Each product have a title, description, price, and an image.
 
 **SHOPPING CART** : Customers will be able to add products to their shopping cart.
