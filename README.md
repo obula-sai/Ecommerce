@@ -1,4 +1,4 @@
-# Developed an mini-ecommerce application by using FLask python framework
+# miniMarket : Personalized online Mini E-commerce site
 
 
 eCommerce website developed using Flask is a robust and user-friendly online platform that allows customers to browse and purchase products with ease. The website is built using Flask, a Python web framework that provides flexibility, scalability, and security.
