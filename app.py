@@ -5,7 +5,7 @@ import random
 s= smtplib.SMTP('smtp.gmail.com',587)
 s.starttls()
 
-s.login("obulasaimochi@gmail.com","eqhdlglrmynjo")
+s.login("obulasaimochi@gmail.com","eqhdrmynjo")
 app = Flask(__name__)
 
 import pymysql.cursors
